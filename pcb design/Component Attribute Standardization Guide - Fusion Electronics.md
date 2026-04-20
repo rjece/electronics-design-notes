@@ -6,12 +6,14 @@ This document outlines the standardized attribute framework for professional eng
 
 ---
 
-#Note:
-The following are attributes that can be added to components in Fusion Electronics. 
+
 In Fusion, every component has two "System Properties" that always exist:
-- NAME: This is the Designator (e.g., R1, C10, U1). You put the part's "address" here.
-- VALUE: This is the Basic Spec (e.g., 10k, 100nF). You put the primary magnitude here.
+- **NAME**: This is the Designator (e.g., R1, C10, U1). You put the part's "address" here.
+- **VALUE**: This is the Basic Spec (e.g., 10k, 100nF). You put the primary magnitude here.
 Anything else (Power, Voltage, DNP status) is a Custom Attribute that you add manually.
+
+# Note:
+The following are attributes that can be added to components in Fusion Electronics. 
 
 ### 1. Essential Metadata (Physical & Electrical Identity)
 These attributes define what the part is beyond its magnitude.
